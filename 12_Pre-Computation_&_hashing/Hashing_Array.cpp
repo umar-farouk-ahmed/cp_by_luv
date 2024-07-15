@@ -18,7 +18,7 @@ int main(){
     int a[n];
     for(int i =0; i<n; i++){
         cin >> a[i];
-        hsh[a[i]]++;
+        hsh[a[i]]++; //**  a[i] is a value which acts as an index number for hsh array . And at that array at that index increment happens
     }
     int q;
     cin >> q;
